@@ -11,7 +11,7 @@ def line(array)
 
   array.each do |name|
     line_output += "#{counter}."
-    if counter == array.length + 1
+    if counter == array.length
       line_output += " #{name}"
     else
       line_output += " #{name} "
