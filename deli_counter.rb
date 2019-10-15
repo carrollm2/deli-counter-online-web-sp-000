@@ -1,7 +1,7 @@
 def line(array)
 
   if !array.any?
-    puts "The line is currently empty"
+    puts "The line is currently empty."
     return
   end
 
