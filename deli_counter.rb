@@ -2,6 +2,7 @@ def line(array)
 
   if !array.any?
     return "The line is currently empty"
+  end
 
   line_output = "The line is currently: "
 
@@ -30,7 +31,8 @@ def now_serving(array)
 
   if !array.any?
     return "There is nobody waiting to be served!"
+  end
 
-  puts "Currently serving #{array.shift}"  
+  puts "Currently serving #{array.shift}"
 
 end
