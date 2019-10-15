@@ -10,7 +10,7 @@ def line(array)
   counter = 1
 
   array.each do |name|
-    line_output += "#{counter}. #{name}"
+    line_output += "#{counter}. #{name} "
     counter += 1
   end
 
