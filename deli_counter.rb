@@ -36,6 +36,6 @@ def now_serving(array)
     return
   end
 
-  puts "Currently serving #{array.shift}"
+  puts "Currently serving #{array.shift}."
 
 end
