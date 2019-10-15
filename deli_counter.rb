@@ -10,7 +10,7 @@ def line(array)
   counter = 1
 
   array.each do |name|
-    line_output += "#{counter}. #{name} "
+    line_output += "#{counter}. #{name}"
     counter += 1
   end
 
@@ -23,6 +23,7 @@ def take_a_number(array, name)
   line_length = array.length
   number = line_length + 1
 
+  array.push(name)
   puts "Welcome, #{name}. You are number #{number} in line."
 
 end
